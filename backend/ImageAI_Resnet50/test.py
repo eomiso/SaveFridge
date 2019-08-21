@@ -51,6 +51,16 @@ class TddTest(unittest.TestCase): #unittest.TestCase를 상속받는 테스트 �
         else:
             print('Error')
         print('')
+
+    def testImage2text_pizza(self):
+        predictions = image2text_imageai.image2text("pictures/pizza_real.jpeg")
+        print('Input: pizza')
+        print('============Test Result===========')
+        if 'pizza' in predictions:
+            print('Success')
+        else:
+            print('Error')
+        print('')
     
 
 if __name__ == '__main__':
