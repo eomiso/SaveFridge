@@ -1,5 +1,5 @@
 # DevDoops
 
-creations
+Tutorial
 
-Hello World from David Thompson
+* test: python3 -m unittest test.py
