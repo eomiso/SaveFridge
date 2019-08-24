@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*- 
 import unittest #python test module
 import image2text_imageai
 
